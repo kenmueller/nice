@@ -6,6 +6,17 @@
 git clone https://github.com/kenmueller/nice.git && cd nice && ./init.sh && cd .. && source ~/.nice/main.sh && rm -rfv nice
 ```
 
+## Commands
+
+- **`nice file.nice`**
+  - Runs the nice file
+- `nicec file.nice`
+  - Compiles the nice file to a binary alongside it
+- `nice-run file`
+  - Runs the compiled nice file
+- `nice-to-cpp file.nice`
+  - Writes the compiled C++ code to a file alongside it
+
 ## Rules
 
 - Strings are surrounded with double quotes
