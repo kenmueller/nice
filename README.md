@@ -28,6 +28,7 @@ nice file.nice
 - Strings are surrounded with double quotes
 - Characters are surrounded with single quotes
 - Semicolons are optional
+- Escape characters in strings with `\`
 
 ## Overview
 
