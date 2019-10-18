@@ -184,17 +184,17 @@ end
 ### **Logical operators**
 
 ```nice
-if x equals 4 or y >= 5 then
+if x equals 4 || y >= 5 then
     println("Hooray!")
-elif x equals 3 and y <= 2 then
+elif x equals 3 && y <= 2 then
     println("Meh")
 else
     println("Oh no!")
 end
 ```
 
-- `or` - Equivalent to `||`
-- `and` - Equivalent to `&&`
+- `||` - The **or** operator
+- `&&` - The **and** operator
 
 ### **Comparison**
 

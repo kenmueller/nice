@@ -15,9 +15,6 @@ console.log(`#include <iostream>
 #define ge >
 #define geq >=
 
-#define or ||
-#define and &&
-
 #define add1(name) name++
 #define sub1(name) name--
 
