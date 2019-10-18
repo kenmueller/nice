@@ -3,7 +3,7 @@
 ## Download
 
 ```bash
-git clone https://github.com/kenmueller/nice.git && cd nice && ./init.sh && cd .. && source ~/.nice/main.sh && rm -rfv nice
+git clone https://github.com/kenmueller/nice.git && cd nice && ./init.sh && cd .. && source ~/.nice/main.sh && rm -rfv nice > /dev/null
 ```
 
 ### **To run**
