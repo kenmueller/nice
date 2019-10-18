@@ -181,15 +181,35 @@ end
 - `stop` - Stops the entire program
 - `error` - Stops the entire program, signaling an error
 
+### **Logical operators**
+
+```nice
+if x equals 4 or y >= 5 then
+    println("Hooray!")
+elif x equals 3 and y <= 2 then
+    println("Meh")
+else
+    println("Oh no!")
+end
+```
+
+- `or` - Equivalent to `||`
+- `and` - Equivalent to `&&`
+
 ### **Comparison**
 
 ```nice
 if x equals 4 then
     error
-elif x notequals 5 then
+elif x neq 5 or x ge 6 then
     stop
 end
 ```
 
 - `equals` - Equivalent to `==`
-- `notequals` - Equivalent to `!=`
+- `eq` - **Equal to** - equivalent to `==`
+- `neq` - **Not equal to** - equivalent to `!=`
+- `le` - **Less than** - equivalent to `<`
+- `leq` - **Less than or equal to** - equivalent to `<=`
+- `ge` - **Greater than** - equivalent to `==`
+- `geq` - **Greater than or equal to** - equivalent to `==`

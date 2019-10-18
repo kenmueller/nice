@@ -5,7 +5,18 @@ console.log(`#include <iostream>
 #define for(init, condition, modifier) for (auto init; condition; modifier
 
 #define equals ==
-#define notequals !=
+
+#define eq ==
+#define neq !=
+
+#define le <
+#define leq <=
+
+#define ge >
+#define geq >=
+
+#define or ||
+#define and &&
 
 #define add1(name) name++
 #define sub1(name) name--
