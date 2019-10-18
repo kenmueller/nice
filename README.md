@@ -6,6 +6,12 @@
 git clone https://github.com/kenmueller/nice.git && cd nice && ./init.sh && cd .. && source ~/.nice/main.sh && rm -rfv nice
 ```
 
+### **To run**
+
+```bash
+nice file.nice
+```
+
 ## Commands
 
 - **`nice file.nice`**
