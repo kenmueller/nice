@@ -147,6 +147,14 @@ end
 - The `exit` keyword is equivalent to `break`. This exits the current loop (applies to `while` loops as well)
 - The `next` keyword is equivalent to `continue`. This goes on to the next iteration of the loop (applies to `while` loops as well)
 
+### **`system`**
+
+```nice
+system("rm -rf image.jpg")
+```
+
+- Runs a system command
+
 ### **Helper methods**
 
 ```nice

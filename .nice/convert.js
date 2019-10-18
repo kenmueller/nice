@@ -26,6 +26,7 @@ console.log(`#include <iostream>
 
 #define print(string) std::cout << string
 #define println(string) std::cout << string << '\\n'
+#define system(string) std::system(string)
 
 int main() {
 	${
